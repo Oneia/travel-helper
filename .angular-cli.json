@@ -55,6 +55,20 @@
   },
   "defaults": {
     "styleExt": "less",
-    "component": {}
+    "component": {
+      "spec": false,
+      "changeDetection": "OnPush"
+    },
+    "directive": {
+      "prefix": "th",
+      "spec": false
+    },
+    "service": {
+      "spec": false
+    },
+    "pipe": {
+      "spec": false,
+      "prefix": "th"
+    }
   }
 }
